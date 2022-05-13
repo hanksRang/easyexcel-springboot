@@ -1,5 +1,6 @@
 package com.hanksrang.easyexcel.entity;
 
+import com.alibaba.excel.annotation.ExcelProperty;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
@@ -24,14 +25,17 @@ public class EasyexcelSpringbootCourseEntity implements Serializable {
 	 * 
 	 */
 	@TableId(type = IdType.AUTO)
+	@ExcelProperty("主键")
 	private Long id;
 	/**
 	 * 
 	 */
+	@ExcelProperty("课程名")
 	private String name;
 	/**
 	 * 
 	 */
+	@ExcelProperty("学分")
 	private Double score;
 
 }
