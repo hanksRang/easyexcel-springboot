@@ -17,7 +17,7 @@ public class DbLoadAndExportService {
     @Autowired
     private EasyexcelSpringbootCourseDao easyexcelSpringbootCourseDao;
 
-    private String rootPath = "D:\\2_work_for_own\\projects-open\\easyexcel-springboot\\file\\";
+    private String rootPath = "D:\\a\\b\\easyexcel-springboot\\file\\";
 
     public void loadAndExport() {
         String fileName = rootPath + "export.xlsx";
