@@ -17,7 +17,7 @@ import java.util.List;
 @Service
 public class FileReadAndWriteService {
 
-    private String rootPath = "D:\\2_work_for_own\\projects-open\\easyexcel-springboot\\file\\";
+    private String rootPath = "D:\\a\\projects\\easyexcel-springboot\\file\\";
 
     @Autowired
     private EasyexcelSpringbootCourseDao easyexcelSpringbootCourseDao;
